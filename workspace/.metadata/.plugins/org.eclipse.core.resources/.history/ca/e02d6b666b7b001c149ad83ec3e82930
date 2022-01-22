@@ -1,0 +1,15 @@
+package com;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		String str = "Akash";
+		Pattern pt = Pattern.compile("Akash");
+		Matcher mt = pt.matcher(str);
+		
+	}
+
+}

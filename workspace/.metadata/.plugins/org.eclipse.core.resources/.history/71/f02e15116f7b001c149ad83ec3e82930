@@ -1,0 +1,21 @@
+package com;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test5 {
+
+	public static void main(String[] args) {
+
+			//	Pattern pt = Pattern.compile("\\d\\d");
+				Pattern pt = Pattern.compile("\\d{10}");
+				Matcher mt = pt.matcher("990012345");
+				if(mt.matches()) {
+					System.out.println("Valid Number");
+				}else {
+					System.out.println("In Valid Number");
+				}
+
+	}
+
+}

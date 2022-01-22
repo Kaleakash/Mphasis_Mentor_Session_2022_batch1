@@ -1,0 +1,12 @@
+package com;
+
+import java.io.DataInputStream;
+
+public class ByteWiseOperation {
+
+	public static void main(String[] args) throws Exception{
+		DataInputStream dis = new DataInputStream(System.in);
+		
+	}
+
+}

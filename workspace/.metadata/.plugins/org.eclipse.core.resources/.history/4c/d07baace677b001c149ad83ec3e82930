@@ -1,0 +1,15 @@
+package com;
+class Employee {
+	int id;
+	String name;
+	float salary;
+	
+}
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}

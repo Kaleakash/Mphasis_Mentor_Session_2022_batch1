@@ -1,0 +1,12 @@
+package com;
+
+import java.util.HashSet;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		System.out.println("Size is "+hs.size());
+	}
+
+}

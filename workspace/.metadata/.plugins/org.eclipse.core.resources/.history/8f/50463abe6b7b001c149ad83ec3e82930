@@ -1,0 +1,20 @@
+package com;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		String str = "Akash";
+		Pattern pt = Pattern.compile("Vikash");
+		Matcher mt = pt.matcher(str);
+		if(mt.matches()) {
+			System.out.println("yes match");
+		}else {
+			System.out.println("Not match");
+		}
+
+	}
+
+}

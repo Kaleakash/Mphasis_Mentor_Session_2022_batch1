@@ -1,0 +1,20 @@
+package com;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		String str = "[abc]abc";		//1st character can be a or b or c		
+		String str1 = "aabc";
+		Pattern pt = Pattern.compile(str);
+		Matcher mt = pt.matcher(str1);
+		if(mt.matches()) {
+			System.out.println("yes match");
+		}else {
+			System.out.println("Not match");
+		}
+	}
+
+}

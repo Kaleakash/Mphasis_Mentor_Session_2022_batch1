@@ -1,0 +1,19 @@
+package com;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test4 {
+	public static void main(String[] args) {
+		//+ : 1 or many 
+		// * : 0 or many 
+		// ? : 0 or 1 (optional)
+		Pattern pt = Pattern.compile("[a-z,0-9]+@[a-z,0-9]+.co");
+		Matcher mt = pt.matcher("abc@abc.com");
+		if(mt.matches()) {
+			System.out.println("yes match");
+		}else {
+			System.out.println("Not match");
+		}
+	}
+}

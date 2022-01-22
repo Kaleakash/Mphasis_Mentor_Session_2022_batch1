@@ -1,0 +1,29 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.Stack;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+//		Stack ss = new Stack();
+//		ss.push(100);
+//		ss.push(200);
+//		ss.push(300);
+//		System.out.println(ss);
+//		System.out.println("remove "+ss.pop());		// remove top most element 
+//		System.out.println(ss);	
+//		System.out.println("remove "+ss.peek());		// it display top most element 
+//		System.out.println(ss);
+		ArrayList al = new ArrayList();
+		int a=10;		// primitive value 
+		Integer b = new Integer(a);			// convert primitive to object. 
+		al.add(b);
+		al.add(20);			// auto-boxing : converting primitive to objects. 
+		al.add("Ravi");
+		al.add(20.20);
+		
+		
+	}
+
+}

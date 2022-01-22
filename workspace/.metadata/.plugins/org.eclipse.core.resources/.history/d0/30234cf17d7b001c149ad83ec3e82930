@@ -1,0 +1,20 @@
+package com;
+
+class Employee {
+	private Employee() {}
+	
+	public static Employee getInstance() {
+		Employee emp = new Employee();
+		return emp;
+	}
+	public void display() {
+		System.out.println("Display method");
+	}
+}
+public class DemoTest {
+
+	public static void main(String[] args) {
+		//Employee emp = new Employee();
+	}
+
+}

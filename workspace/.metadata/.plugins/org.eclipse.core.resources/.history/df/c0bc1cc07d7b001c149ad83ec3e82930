@@ -1,0 +1,15 @@
+package com;
+
+class Employee {
+	private Employee() {}
+	public void display() {
+		System.out.println("Display method");
+	}
+}
+public class DemoTest {
+
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+	}
+
+}
